@@ -1,0 +1,62 @@
+body{
+  background-color:#F2EFE5;
+}
+.App{
+  border: 2px solid #929397;
+  margin: 100px 300px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+}
+.App h2{
+  color: #792e79;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 27px;
+}
+.App ul{
+  list-style: "⭐";
+  font-size: 22px;
+  margin: 60px;
+  color: #c947c9;
+  font-family:serif;
+}
+.App input{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 2px solid rgb(116, 96, 115);
+  padding-left: 9px;
+}
+.App button{
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 30px;
+  background-color: #8f628f;
+  color: #fdfcf7;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.App ul li{
+  /* word-wrap: break-word;   */
+   /* عشان الكلام لو كتير ينزل سطر لتحت */
+  overflow-wrap:break-word ;
+  cursor: pointer;
+}
+.diffstyle{
+  text-decoration: line-through;
+  list-style: "✅";
+}
+.div10{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+span{
+  color: red;
+  cursor: pointer;
+  font-size: 25px;
+}
